@@ -13,6 +13,8 @@
 		7269855323AF45180097BAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7269855123AF45180097BAE9 /* Main.storyboard */; };
 		7269855523AF45380097BAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7269855423AF45380097BAE9 /* Assets.xcassets */; };
 		7269855823AF45380097BAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7269855623AF45380097BAE9 /* LaunchScreen.storyboard */; };
+		7269856023AF54050097BAE9 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269855F23AF54050097BAE9 /* CustomBtn.swift */; };
+		7269856323AF61FF0097BAE9 /* UIButton+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269856223AF61FF0097BAE9 /* UIButton+Design.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7269855423AF45380097BAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7269855723AF45380097BAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7269855923AF45380097BAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7269855F23AF54050097BAE9 /* CustomBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
+		7269856223AF61FF0097BAE9 /* UIButton+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Design.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		7269854A23AF45180097BAE9 /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				7269856123AF61CA0097BAE9 /* Extension */,
 				7269854B23AF45180097BAE9 /* AppDelegate.swift */,
 				7269854D23AF45180097BAE9 /* SceneDelegate.swift */,
 				7269854F23AF45180097BAE9 /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				7269855423AF45380097BAE9 /* Assets.xcassets */,
 				7269855623AF45380097BAE9 /* LaunchScreen.storyboard */,
 				7269855923AF45380097BAE9 /* Info.plist */,
+				7269855F23AF54050097BAE9 /* CustomBtn.swift */,
 			);
 			path = TravelApp;
+			sourceTree = "<group>";
+		};
+		7269856123AF61CA0097BAE9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7269856223AF61FF0097BAE9 /* UIButton+Design.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7269855023AF45180097BAE9 /* ViewController.swift in Sources */,
+				7269856023AF54050097BAE9 /* CustomBtn.swift in Sources */,
 				7269854C23AF45180097BAE9 /* AppDelegate.swift in Sources */,
+				7269856323AF61FF0097BAE9 /* UIButton+Design.swift in Sources */,
 				7269854E23AF45180097BAE9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
